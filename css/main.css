@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    align-items: center;
+}
 
 h2{
     font-family: "Poppins", sans-serif;
@@ -18,18 +22,21 @@ p{
 
 }
 
+img{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    display: flex;
+}
+
 .box{
     padding: 32px;
     width: 350px;
     height: 250px;
     border-radius: 8px;
     border: 1px solid black;
+    box-shadow: #4D4F62;
 }
-
-
-.supervisor{
-}
-
 
 .center{
     display: flex;
@@ -38,3 +45,10 @@ p{
     justify-content: center;
 }
 
+.supervisor{
+    justify-items: flex-start;
+}
+
+.calculator{
+
+}
